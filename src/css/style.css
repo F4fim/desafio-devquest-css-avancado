@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 59px 0px 0px 44px;
+    color: #000;
+    font-weight: 800;
+}
+
+.container ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container ul li {
+    margin: 59px 30px 0px 30px;
+    list-style-type: none;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container .sobre a {
+    background-color: #5bc241;
+    padding: 11px 7px 11px 6px;
+    margin: 48px 0px 0px 0px;
+    color: #ffffff;
+}
+
+.container .cadastrar a {
+    background-color:#5BC241;
+    padding: 10px 21px 11px 21px;
+    margin: 50px 45px 0px 0px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
